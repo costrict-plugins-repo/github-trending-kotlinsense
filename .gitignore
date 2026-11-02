@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude Code
+.claude/
+.playwright-mcp/
+
+# Plugin per-project config — may contain personal details
+.claude-plugin-config.json
+
+# Local planning/spec files
+PLUGIN_4_KOTLIN_LSP.md
+PLAN.md
+
+# graphify knowledge graph
+graphify-out/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.key
+secrets.json
+
+repoguard-results/
+
+# local AI task notes
+CLAUDE_TASKS.md
